@@ -1,0 +1,155 @@
+.banner{
+    display: flex;
+   justify-content: space-around;
+    background-color: bisque;
+    padding: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+.logo{
+    color: rgb(42, 42, 224);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container h1{
+   color: blue;
+   margin-top: 5rem;
+   margin-left: 8rem;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.ali a{
+    background-color: hsl(39,100%, 50%);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 8rem;
+}
+
+.image img{
+    width: 350px;
+    height: 15rem;
+}
+
+.j a{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 8rem;
+}
+
+.title h1{
+    text-align: center;
+}
+
+.service-center{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
+    gap: 3rem;
+}
+
+.service{
+    color: #fff;
+    background-color: #111;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+.service span{
+    color: #dd9a05;
+    font-size: 4rem;
+  
+}
+
+.service h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+
+}
+
+.service p{
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.service:hover{
+    background-color: #dd9a05;
+
+}
+
+.service:hover span{
+    color: #fff;
+}
+
+
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+.b button{
+    background-color: hsl(240, 100%, 50%);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    border:none ;
+    font-size: 16px;
+}
+
+ .contact-center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    
+    
+
+} 
+
+.contact-center .left .icon{
+    margin-right: 2rem;
+    font-size: 2.3rem;
+    color: #dd9a05;
+
+}
+
+.form input, form textarea{
+    font-size: 1.2rem;
+    padding: 10px 0;
+    text-indent: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    width: 85%;
+    outline: none;
+   
+
+}
+
+.form h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.form textarea{
+    max-width: 55rem;
+    height: 16rem;
+    margin-bottom: 3rem;
+  resize: none;
+
+}
